@@ -10,4 +10,5 @@ const rules = require("./rules");
 module.exports = [
      rules.rule1,
      rules.rule2,
+     rules.noLwcCustomProperties,
 ];
