@@ -4,7 +4,7 @@ const { configBasedir } = require("./setup");
 const config = {
   plugins: ["./src"],
   rules: {
-    "plugin/rule2": true,
+    "stylelint-plugin-slds/rule2": true,
   },
 };
 
@@ -16,5 +16,5 @@ test("no !important declarations", async () => {
   });
   const warnings = result.results[0].warnings;
   expect(warnings).toHaveLength(1);
-  expect(warnings[0].text).toBe("Expected no !important declarations. (plugin/rule2)");
+  expect(warnings[0].text).toBe("Expected no !important declarations. (stylelint-plugin-slds/rule2)");
 });

@@ -4,7 +4,7 @@ const plugin =require("./../src/");
 const config = {
   plugins: [plugin],
   rules: {
-    "plugin/rule1": [true],
+    "stylelint-plugin-slds/rule1": [true],
   },
 };
 
@@ -16,5 +16,5 @@ test("color should be expected-value", async () => {
   });
   const warnings = result.results[0].warnings;
   expect(warnings).toHaveLength(1);
-  expect(warnings[0].text).toBe('Expected "color" to be a specific value. (plugin/rule1)');
+  expect(warnings[0].text).toBe('Expected "color" to be a specific value. (stylelint-plugin-slds/rule1)');
 });

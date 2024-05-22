@@ -1,6 +1,6 @@
 const stylelint = require("stylelint");
 
-const ruleName = "plugin/rule2";
+const ruleName = "stylelint-plugin-slds/rule2";
 const messages = stylelint.utils.ruleMessages(ruleName, {
   expected: "Expected no !important declarations.",
 });
