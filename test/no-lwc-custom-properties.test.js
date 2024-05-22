@@ -16,5 +16,5 @@ test("no lwc custom properties declarations", async () => {
   });
   const warnings = result.results[0].warnings;
   expect(warnings).toHaveLength(1);
-  expect(warnings[0].text).toBe(`Unexpected "--lwc custom property" within selector "--lwc-c-button-color-background". Replace with "slds" or "dxp" equivalents. (stylelint-plugin-slds/no-lwc-custom-properties)`);
+  expect(warnings[0].text).toBe(`Unexpected "--lwc custom property" within selector "--lwc-c-button-color-background". Replace with "slds" or "dxp" equivalents. See https://github.com/mvogelgesang/stylelint-plugin-slds/#no-lwc-custom-properties. (stylelint-plugin-slds/no-lwc-custom-properties)`);
 });

@@ -2,7 +2,7 @@ const stylelint = require("stylelint");
 
 const ruleName = "stylelint-plugin-slds/no-lwc-custom-properties";
 const messages = stylelint.utils.ruleMessages(ruleName, {
-  expected: (prop) => `Unexpected "--lwc custom property" within selector "${prop}". Replace with "slds" or "dxp" equivalents.`,
+  expected: (prop) => `Unexpected "--lwc custom property" within selector "${prop}". Replace with "slds" or "dxp" equivalents. See https://github.com/mvogelgesang/stylelint-plugin-slds/#no-lwc-custom-properties.`,
 });
 
 const rule = (primaryOption) => {
