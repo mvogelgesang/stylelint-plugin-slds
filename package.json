@@ -1,0 +1,20 @@
+{
+  "name": "@mvogelgesang/stylelint-plugin-slds3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "jest",
+    "build": "echo 'No build step required'"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "stylelint": "^14.0.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^14.0.0"
+  }
+}
