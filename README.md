@@ -40,7 +40,7 @@ Update package.json to include a new `stylelint` command. This can also be chain
 ```json
 {
   "scripts": {
-    "stylelint": "stylelint -c .stylelintrc.json force-app/main/default/lwc/**/*.css",
+    "stylelint": "stylelint --config .stylelintrc.json force-app/main/default/lwc/**/*.css",
   },
 }
 ```
