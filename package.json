@@ -1,11 +1,11 @@
 {
-  "name": "@mvogelgesang/stylelint-plugin-slds3",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@mvogelgesang/stylelint-plugin-slds",
+  "version": "0.1.0",
+  "description": "A stylelint plugin to identify antipatterns when using Salesforce Lightning Design System.",
   "main": "src/index.js",
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Mark Vogelgesang, @mvogelgesang",
+  "license": "MIT",
   "scripts": {
     "test": "jest",
     "build": "echo 'No build step required'"
