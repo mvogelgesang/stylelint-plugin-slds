@@ -12,9 +12,9 @@
   },
   "devDependencies": {
     "jest": "^29.0.0",
-    "stylelint": "^14.0.0"
+    "stylelint": "15.10.2"
   },
   "peerDependencies": {
-    "stylelint": "^14.0.0"
+    "stylelint": "15.10.2"
   }
 }
